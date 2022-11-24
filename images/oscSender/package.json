@@ -1,0 +1,18 @@
+{
+  "name": "OSC sender",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js",
+    "start": "node src/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ioredis": "^5.2.4",
+    "nodemon": "^2.0.20",
+    "redis-streams-broker": "^0.0.15",
+    "socket.io": "^4.5.2"
+  }
+}
